@@ -10,3 +10,4 @@ services:
       - 4443:443
     environment:
       - TORAN_HTTPS=false
+    dns: 8.8.8.8
