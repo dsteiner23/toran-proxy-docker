@@ -9,4 +9,4 @@ services:
       - 8080:80
       - 4443:443
     environment:
-      - TORAN_HTTPS=true
+      - TORAN_HTTPS=false
